@@ -57,8 +57,6 @@ The dataset contains **100,000 job records** and includes fields related to:
 * Cache hits
 * Job state
 
-> **Note:** `total_bytes_processed` was scaled by a factor of 50 in the mock dataset to simulate a more representative processing volume.
-
 #### 🛠️ Technologies
 
 * **Python**
@@ -73,7 +71,7 @@ bigquery_cost_observability/
 ├── BigQuery_Cost_Observability.ipynb
 ├── README.md
 └── data/
-    └── bigquery_jobs_2025_mock_2.csv
+    └── bigquery_jobs_2025_mock_sample.csv
 ```
 
 #### ▶️ How to Run
