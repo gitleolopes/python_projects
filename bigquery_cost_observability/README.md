@@ -46,7 +46,7 @@ No violations were identified under the defined validation rules.
 
 The project uses a mock dataset representing BigQuery job activity during 2025.
 
-The dataset contains **100,000 job records** and includes fields related to:
+The dataset contains **80,000 job records** and includes fields related to:
 
 * Job and user information
 * Project information
