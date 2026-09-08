@@ -1,10 +1,10 @@
 ### 📊 BigQuery Cost Observability
 
-A Python-based analytics project focused on analyzing BigQuery job data to understand data processing consumption, usage patterns, and query performance.
+A Python-based analytics project focused on analyzing BigQuery job data to understand cloud consumption, estimated costs, usage patterns, and query performance.
 
 #### 🎯 Overview
 
-The project analyzes BigQuery job-level data to identify consumption patterns across time, projects, and users, while also evaluating the relationship between processing volume and query execution time.
+The project analyzes BigQuery job-level data to identify cost patterns across time, projects, and users, while also evaluating the relationship between estimated processing costs and query execution time.
 
 The analysis was developed using Python and Pandas, with Matplotlib used for data visualization.
 
@@ -12,10 +12,10 @@ The analysis was developed using Python and Pandas, with Matplotlib used for dat
 
 The analysis focuses on questions such as:
 
-* How does BigQuery processing consumption vary over time?
-* Which projects account for the highest processing volumes?
-* How is processing consumption distributed across users?
-* Does processing a larger volume of data generally result in longer query execution times?
+* How does estimated BigQuery cost vary over time?
+* Which projects account for the highest estimated costs?
+* How are estimated costs distributed across users?
+* Does higher estimated processing cost generally result in longer query execution times?
 
 #### 🔎 Approach
 
@@ -25,8 +25,8 @@ The project follows a structured analytics workflow:
 2. **Data Profiling** — Inspect the dataset structure, dimensions, columns, and data types.
 3. **Data Type Standardization** — Convert timestamp fields into appropriate datetime types.
 4. **Data Quality** — Validate completeness, uniqueness, and business rules across key fields.
-5. **Data Transformation** — Create analytical fields such as monthly periods and query duration.
-6. **Analysis** — Analyze processing consumption by month, project, and user, as well as query performance.
+5. **Data Transformation** — Create analytical fields such as monthly periods, estimated cost, and query duration.
+6. **Analysis** — Analyze estimated costs by month, project, and user, as well as the relationship between estimated cost and query performance.
 
 #### 🧪 Data Quality
 
