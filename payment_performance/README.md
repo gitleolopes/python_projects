@@ -68,7 +68,7 @@ The dataset is simulated and does not contain real transaction data.
 #### ⚠️ Limitations
 
 * The dataset is synthetic.
-* The analysis identifies patterns and investigation priorities, **not proven root causes** of transaction declines.
+* The analysis identifies patterns and investigation priorities, not proven root causes of transaction declines.
 * Decline reason codes and operational incident data are not included in the analyzed transaction dataset, limiting causal interpretation.
 * Merchant comparisons focus on merchants present in both periods; a separate analysis would be needed to assess entry and exit effects comprehensively.
 * The 30-attempt threshold is an exploratory filter, not a statistical significance test.
@@ -92,6 +92,6 @@ payment_performance/
 
 #### ▶️ How to Run
 
-Open `BigQuery_Cost_Observability.ipynb` in Jupyter Notebook or Google Colab and run the cells sequentially.
+Open `Payment_Performance.ipynb` in Jupyter Notebook or Google Colab and run the cells sequentially.
 
 **← [Back to main README](../README.md)**
